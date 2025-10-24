@@ -1,0 +1,69 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+*.log
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# --- IDE & Editor ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- Environment files ---
+.env
+.env.local
+.env.*.local
+
+# --- Data & Artifacts ---
+data/**/*.json
+data/**/*.csv
+data/**/*.parquet
+data/**/*.db
+data/**/*.sqlite
+data/**/*.pdf
+data/**/*.pkl
+
+# Keep sample doc for testing
+!data/sample/example.md
+
+# --- Docker & Qdrant volumes ---
+qdrant_storage/
+ollama/
+*.pid
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Build & Packaging ---
+build/
+dist/
+*.spec
+*.manifest
+
+# --- Reports & Notebooks ---
+*.ipynb_checkpoints
+*.pytest_cache/
+reports/
+logs/
+*.coverage
+htmlcov/
+.coverage
+coverage.xml
+
+# --- Misc ---
+*.bak
+*.tmp
+*.swp
